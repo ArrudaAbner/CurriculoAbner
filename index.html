@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./Styles.css">
+</head>
+
+<body>
+    <div class="container-fluid container-linear">
+        <div class="row container-card">
+            <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
+                <div class="card card-perfil">
+                    <div class="img-card-perfil">
+                        <img src="./eu.jpg" alt="Foto de Perfil" class="card-image mx-auto d-block">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-center card-title" id="nome-no-html"></h5>
+                        <hr class="hr">
+                        <p class="text-center paragrafo" id="cargo-no-html"></p>
+                        <div class="botoes-card">
+                            <button onclick="clickNoSobre()" class="btn mr-1" id="btn-sobre">Sobre</button>
+                            <button onclick="clickNoProjetos()" class="btn ml-1 btn-card"
+                                id="btn-projeto">Experiências</button>
+                        </div>
+                        <div class="icon-redes-sociais">
+                            <div class="links-redes-sociais mt-2">
+                                <a href="https://www.facebook.com/abner.dearruda/" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/Abner_arruda2" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/_abnerarruda_/?hl=pt-br" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                <a href="https://api.whatsapp.com/send?phone=5555991239155&text=Ol%C3%A1" target="_blank">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 text-body">
+                <div class="text" id="texto-1">
+                    <h2 class="title-text">Informações Pessoais:</h2>
+                    <h4 class="title-subtitle"></h4>
+                    <h5 class="title-subtitle">Mais sobre mim: </h5>
+                    <p class="paragrafo" id="conteudo-pessoal"></p>
+                    <h5 class="title-subtitle">Ensino Superior:</h5>
+                    <p class="paragrafo" id="faculdade"></p>
+                    <h5 class="title-subtitle">Observações: </h5>
+                    <p class="paragrafo" id="obs-html"></p>
+                </div>
+                <div class="text" id="texto-2">
+                    <h2 class="title-subtitle">Experiências Profissionais:</h2>
+                    <h5 class="title-subtitle copyjui" id="empresa-1"></h5>
+                    <p class="paragrafo" id="informacao-empresa-1">
+                    </p>
+                    <div><small><a href="https://www.copyjui.com.br/"target="_blank">Copyjui Soluções Digitais</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="row" id="footer-elementos">
+            <div class="col-md-3 col-lg-3">
+                <h4>Telefone</h4>
+                <p id="telefone"></p>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="email">
+                    <h4>E-mail</h4>
+                    <p id="email"></p>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <h4>Siga-me</h4>
+                <div class="Links-redes-sociais">
+                    <a href="https://www.facebook.com/abner.dearruda/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/Abner_arruda2" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_abnerarruda_/?hl=pt-br" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5555991239155&text=Ol%C3%A1" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center mb-2">
+            <div class="col-lg-12 col-md-12">
+                <small>2020 <a href="https://Growdev.com.br" target="_blank">Growdev</a></small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
